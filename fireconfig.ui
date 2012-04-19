@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>419</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FireConfig</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>firewall.gif</normaloff>firewall.gif</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="filterradio">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>80</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filters</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="monitorradio">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>128</y>
+      <width>117</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Monitor Status</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="portscanradio">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>176</y>
+      <width>85</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Port Scan</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="advconfradio">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>224</y>
+      <width>175</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Advanced Configuration</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="inforadio">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>272</y>
+      <width>239</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Information on Ports and Services</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>320</y>
+      <width>84</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitbutton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>320</y>
+      <width>84</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="startstopbutton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop Firewall</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="flushbutton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>179</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Flush Firewall</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>419</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="File">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="File"/>
+  </widget>
+  <action name="actionabout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
