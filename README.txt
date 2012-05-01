@@ -1,6 +1,6 @@
 A front end for the linux firewall with basic and advanced filtering features such as creating and modifying custom chains. 
 
-Monitoring support to view firewall rules as well as active connections simultaneously is inclded.
+Monitoring support to view firewall rules as well as active connections simultaneously is included.
 
 Incorportes added features such as port scanning, information on IP, whois, reverse lookup and more.
 
